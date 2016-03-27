@@ -22,7 +22,7 @@ public abstract class EasyBoard {
     public EasyBoard(Player player, String display) {
         this.player = player;
         scoreboard = Bukkit.getServer().getScoreboardManager().getNewScoreboard();
-        objective = scoreboard.registerNewObjective(player.getName(), "dummy");
+        objective = scoreboard.registerNewObjective(player.getName() + "scoreboard", "dummy");
         objective.setDisplayName(display);
         objective.setDisplaySlot(DisplaySlot.SIDEBAR);
         scoreboards.put(player, this);
