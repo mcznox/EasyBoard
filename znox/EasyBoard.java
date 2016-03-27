@@ -86,7 +86,7 @@ public abstract class EasyBoard {
         Iterator<String> iterator = Splitter.fixedLength(16).split(string).iterator();
         String name = getTeamName(score);
         String player = getScoreName(score);
-
+        
         if (getScoreboard().getTeam(name) == null) {
             Team team = getScoreboard().registerNewTeam(name);
             if (!team.hasEntry(player)) {
@@ -94,12 +94,12 @@ public abstract class EasyBoard {
                 team.setPrefix(iterator.next());
                 if (string.length() > 16) team.setSuffix(ChatColor.getLastColors(string) + iterator.next());
             }
-        } else {
-            getObjective().getScore(player).setScore(score);
-            Team team = getScoreboard().getTeam(name);
-            team.setPrefix(iterator.next());
-            if (string.length() > 16) team.setSuffix(ChatColor.getLastColors(string) + iterator.next());
+            return this;
         }
+        getObjective().getScore(player).setScore(score);
+        Team team = getScoreboard().getTeam(name);
+        team.setPrefix(iterator.next());
+        if (string.length() > 16) team.setSuffix(ChatColor.getLastColors(string) + iterator.next());
 
         return this;
     }
