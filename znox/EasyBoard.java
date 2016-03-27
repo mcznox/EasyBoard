@@ -137,7 +137,7 @@ public abstract class EasyBoard {
      * @return string do time
      */
     public String getTeamName(int score) {
-        return String.format("[Team-%s", score);
+        return "[Team-" + score;
     }
 
     /**
