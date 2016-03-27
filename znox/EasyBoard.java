@@ -151,22 +151,6 @@ public abstract class EasyBoard {
     }
 
     /**
-     * Checa se a um texto na respectiva score
-     * @param score Integer para pegar o texto
-     * @return Retorna o estado de check
-     */
-    public boolean hasText(int score) {
-        return getScoreboard().getTeam(getTeamName(score)) != null;
-    }
-
-    /**
-     * Reseta todos os textos da scoreboard
-     */
-    public void reset() {
-        for (int i = 0; i <= 15; i++) removeText(i);
-    }
-
-    /**
      * Reseta todos os times da scoreboard
      */
     public void resetTeams() {
