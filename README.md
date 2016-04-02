@@ -4,7 +4,7 @@
 O EasyBoard é uma API para scoreboard, tendo em vista, que muitos programadores tem dificuldade em realizar a mesma.
 
 ## API
-EasyBoard é uma API de fácil utilização e não precisa de muito esforço para entende-lá. Dentro da paste, possui uma classe `Example.java` que irá demonstrar a utilização da mesma.
+EasyBoard é uma API de fácil utilização e não precisa de muito esforço para entende-lá. Dentro da pasta, possui uma classe `Example.java` que irá demonstrar a utilização da mesma.
 
 ## Adições
 Irei em breve, trazer algumas adições a API.
