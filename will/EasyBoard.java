@@ -1,4 +1,4 @@
-package znox;
+package will;
 
 import com.google.common.base.Splitter;
 import com.google.common.collect.Maps;
