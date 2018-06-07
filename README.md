@@ -12,7 +12,7 @@ Irei em breve, trazer algumas adições a API.
 - [ ] Textos customizados no DisplaySlot `BELOW_NAME`
 
 ## Contato
-Para ter um maior contato com minha pessoa, favor acesse [este site] (http://www.vize.esy.es).
+Para ter um maior contato com minha pessoa, favor acesse [este site] (http://www.vize.com.br).
 
 ## Empresa
 
